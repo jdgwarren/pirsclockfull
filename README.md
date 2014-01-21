@@ -119,6 +119,12 @@ Example:
 
 This would change the text to HELLO on the first indicator in this example.
 
+Once you are done press Ctrl and O together
+
+Then Enter
+
+Ctrl and X together
+
 ## Making it startup automatically when you plug in the Pi
 
 ***
