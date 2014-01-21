@@ -1,4 +1,4 @@
-PiRSClock-Basic
+PiRSClock-Full
 ==============
 
 PiRSClock-Full is a Raspberry Pi Radio Studio Clock written in python using pygame with studio indicators for microphones, telephones etc... It will display a clock in full screen on widescreen (16:9) monitors, displays and TVs.
@@ -125,7 +125,7 @@ Next we:
     
 and add to the bottom:
 
-    sudo pirsclockfull
+    sudo python pirsclockfull
 
 Then Ctrl and O
 
