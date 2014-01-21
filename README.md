@@ -125,7 +125,7 @@ Next we:
     
 and add to the bottom:
 
-    sudo python pirsclockfull
+    sudo pirsclockfull
 
 Then Ctrl and O
 
