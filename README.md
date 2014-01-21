@@ -89,7 +89,29 @@ To quit just hold down keys Q and T at the same time.
 
 ***
 
-Custom configuration guide will go here. Stay tuned...
+Firstly you type:
+
+    sudo nano /usr/local/lib/python2.7/dist-packages/PiRSClock_Full-2.0-py2.7.egg/EGG-INFO/scripts/pirsclockfull
+
+To set colours of the indicators, change the numerical values in ind1colour - ind4colour.
+
+The values are standard RGB
+
+The First value is RED, the second is GREEN and the third is BLUE. The max value is 255 and the min is 0
+
+Example:
+
+    ind1colour = (255, 0, 0)
+    
+would make the first indicator red in this example.
+
+To change the text in the indicators, change the word in the "quotes" in ind1txt - ind4txt
+
+Example:
+
+    ind1txt = indfont.render("HELLO",True,bgcolour)
+
+This would change the text to HELLO on the first indicator in this example.
 
 ## Making it startup automatically when you plug in the Pi
 
