@@ -11,6 +11,10 @@ This was designed specifically for the Raspberry Pi. This version includes confi
 
 PiRSClock-Full is currently stable and ready for use.
 
+## Hardware Requirements
+
+Pins 11, 12, 13 and 15 (top indicator to bottom) on main GPIO header light up the corresponding indicators when connected to pin 6 (ground).
+
 ## Installation for Raspberry Pi
 
 ***
