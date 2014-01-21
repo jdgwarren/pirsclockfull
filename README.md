@@ -1,7 +1,7 @@
 PiRSClock-Basic
 ==============
 
-PiRSClock-Full is a Raspberry Pi Radio Studio Clock written in python using pygame. It will display a clock in full screen on most monitors, displays and TVs along with status indicators for microphones, telephones etc...
+PiRSClock-Full is a Raspberry Pi Radio Studio Clock written in python using pygame with studio indicators for microphones, telephones etc... It will display a clock in full screen on widescreen (16:9) monitors, displays and TVs.
 
 This was designed specifically for the Raspberry Pi. This version includes configurable indicators for microphones, telephones etc... for use in a radio studio.
 
@@ -86,6 +86,8 @@ All we have to do is:
 To quit just hold down keys Q and T at the same time.
 
 ## Custom configuration
+
+***
 
 Custom configuration guide will go here. Stay tuned...
 
