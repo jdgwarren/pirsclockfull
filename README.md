@@ -13,7 +13,11 @@ PiRSClock-Full is currently stable and ready for use.
 
 ## Hardware Requirements
 
-Pins 11, 12, 13 and 15 (top indicator to bottom) on main GPIO header light up the corresponding indicators when connected to pin 6 (ground).
+Pins 11, 12, 13 and 15 (top indicator to bottom) on main GPIO header light up the corresponding indicators when connected to pin 6 (Ground). 
+
+More info on the header can be found here: [http://elinux.org/RPi_Low-level_peripherals](http://elinux.org/RPi_Low-level_peripherals)
+
+**EXERCISE CAUTION WHEN HANDLING ELECTRICITY**
 
 ## Installation for Raspberry Pi
 
