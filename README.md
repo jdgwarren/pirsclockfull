@@ -95,7 +95,7 @@ and there we have it!
 
 All we have to do is:
 
-    pirsclockfull
+    sudo pirsclockfull
     
 To quit just hold down keys Q and T at the same time.
 
