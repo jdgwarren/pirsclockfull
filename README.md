@@ -83,7 +83,7 @@ Now we need to get setuptools:
 
     sudo apt-get install python-setuptools
     
-And finally we install PiRSClock-Basic:
+And finally we install PiRSClock-Full:
 
     sudo easy_install PiRSClock-Full
     
