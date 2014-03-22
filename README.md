@@ -137,43 +137,19 @@ Ctrl and X together
 
 ***
 
-This is a modified version of an article at [http://www.raspberrypi-spy.co.uk/2012/06/auto-login-auto-load-lxde/](http://www.raspberrypi-spy.co.uk/2012/06/auto-login-auto-load-lxde/)
-
 Firstly:
 
-    sudo nano /etc/inittab
+    sudo crontab -e
     
-Scroll down to:
+And add this to the bottom of the file:
 
-    1:2345:respawn:/sbin/getty --noclear 38400 tty1
+    @reboot /usr/local/bin/pirsclockfull &
     
-and add a # infront of that so it looks like this:
+Press Ctrl and O keys together to save.
 
-    #1:2345:respawn:/sbin/getty --noclear 38400 tty1
-    
-Then add this underneath (pi is the username I use in this example):
+Then press Enter.
 
-    1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
-    
-We press together Ctrl and O (Letter O)
-
-Press Enter to save.
-
-Then Ctrl and X to exit.
-
-Next we:
-
-    sudo nano /etc/profile
-    
-and add to the bottom:
-
-    sudo pirsclockfull
-
-Then Ctrl and O
-
-Enter
-
-Ctrl and X
+Then Ctrl and X to exit
 
     sudo reboot
     
